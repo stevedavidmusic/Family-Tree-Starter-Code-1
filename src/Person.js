@@ -1,7 +1,7 @@
 import React from 'react'
 //import classNames from 'classnames';
 import styles from './Person.css' // eslint-disable-line no-unused-vars
-// import Button from '@mui/material/Button'
+import Button from 'react-bootstrap/Button'
 
 export default function Person({ handleClick, isRoot, node, style }) {
 	const rootStyles = isRoot ? ['inner', node.gender, 'isRoot'] : ['inner', node.gender]
@@ -38,7 +38,6 @@ export default function Person({ handleClick, isRoot, node, style }) {
 					className='sub {node.gender}' //{classNames('sub', node.gender)}
 				/>
 			)}
-			{/* <Button variant='text'>Text</Button> */}
 		</div>
 	)
 }
