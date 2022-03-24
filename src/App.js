@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import ReactFamilyTree from 'react-family-tree'
-import Person from './Person'
-import InfoBox from './InfoBox'
 import styles from './App.css' // eslint-disable-line no-unused-vars
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import data from './example_data'
+import Person from './components/Person'
 const rootId = 'Noel'
 
-const WIDTH = 200
-const HEIGHT = 250
+const WIDTH = 275
+const HEIGHT = 300
 // const HEIGHT = 180
 
 const App = () => {
@@ -39,7 +39,6 @@ const App = () => {
 					/>
 				)}
 			/>
-			<InfoBox info={info} />
 		</div>
 	)
 }
