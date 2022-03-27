@@ -23,8 +23,10 @@ const Person = ({ handleClick, isRoot, node, style }) => {
 					justifyContent: 'center',
 					alignItems: 'center',
 					textAlign: 'center',
-					borderRadius: ' 25px',
-					padding: '20px'
+					borderRadius: '25px',
+					padding: '20px',
+					marginLeft: '25px',
+					marginRight: '25px'
 				}}
 			>
 				<img
