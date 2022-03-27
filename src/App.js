@@ -7,8 +7,8 @@ import data from './example_data'
 import Person from './components/Person'
 const rootId = 'Noel'
 
-const WIDTH = 275
-const HEIGHT = 300
+const WIDTH = 350
+const HEIGHT = 350
 // const HEIGHT = 180
 
 const App = () => {
